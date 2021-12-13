@@ -1,0 +1,34 @@
+
+/* Reset default style */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #EF2D56;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    Text-align: center;
+}
+
+/* Texts */
+h1 {
+    font-family: var(--font-family); 
+}
+h2 {
+    font-family: var(--font-family); 
+}
+h3 {
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+}
+h4 {
+    font-family: var(--font-family); 
+}
+h5 {
+    font-family: var(--font-family); 
+}
+h6 {
+    font-family: var(--font-family); 
+}
