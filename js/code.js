@@ -45,7 +45,7 @@ function ValiderUtilisateur() {
      
         var userValue = document.getElementById("utilisateur").value;
    
-        if (userValue.length < 8) {
+        if (userValue.length > 8) {
           $("#userConstraint")
             .html("Le nom d'utilisateur ne peut pas avoir plus de 8 caractères")
             .css("color", "red");
@@ -114,7 +114,7 @@ function ValiderMotDePasse() {
           alert("Erreur de validation dans le numéro");
       }
     } else {
-        alert("Aucune erreur de validation.");
+        alert("Aucune erreur de validation. Nous allons installer votre RAM");
     }
       
       
