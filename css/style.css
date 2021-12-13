@@ -17,7 +17,8 @@ h1 {
     font-family: var(--font-family); 
 }
 h2 {
-    font-family: var(--font-family); 
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
 }
 h3 {
     font-family: 'Readex Pro', sans-serif;
@@ -31,4 +32,15 @@ h5 {
 }
 h6 {
     font-family: var(--font-family); 
+}
+p {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/* Container */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
 }
