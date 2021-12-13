@@ -12,9 +12,18 @@ header {
     Text-align: center;
 }
 
+footer {
+    background-color: #EF2D56;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    Text-align: center;
+}
+
 /* Texts */
 h1 {
-    font-family: var(--font-family); 
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+    color: white;
 }
 h2 {
     font-family: 'Readex Pro', sans-serif;
@@ -23,15 +32,6 @@ h2 {
 h3 {
     font-family: 'Readex Pro', sans-serif;
     color: white;
-}
-h4 {
-    font-family: var(--font-family); 
-}
-h5 {
-    font-family: var(--font-family); 
-}
-h6 {
-    font-family: var(--font-family); 
 }
 p {
     font-family: 'Readex Pro', sans-serif;
@@ -43,4 +43,71 @@ p {
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
+}
+.flex-container-cover {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.content-container {
+    max-width: 1500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/*form*/
+form {
+    background: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 97%;
+}
+
+label {
+    font-family: 'Readex Pro', sans-serif;
+    color: black;
+    padding-left: 20px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+    border: solid #EF2D56 2px;
+    background-color: #F5F5F5;
+}
+
+button {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #EF2D56;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    font-size: 17px;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0,5;
+}
+button:hover {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ed7d3a;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    font-size: 17px;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0,5;
+}
+
+
+.input {
+    margin-top: 20px;
 }

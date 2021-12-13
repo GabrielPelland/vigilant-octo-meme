@@ -17,6 +17,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Readex+Pro:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- scripts -->
+    <script src="js/code.js"></script>
 </head>
 
 <body>
@@ -25,46 +31,77 @@
             AUGMENTER LA MEMOIRE VIVE DE VOTRE ORDINATEUR FACILEMENT
         </h3>
     </header>
-    <div id="formulaire">
-        <div class="flex-container">
-            <div>
-
+    <div>
+        <div id="formulaire">
+            <div class="content-container">
+                <div class="flex-container-cover">
+                    <div>
+                        <h1>Téléchargez votre RAM dès <br> maitenant</h1>
+                    </div>
+                    <div>
+                        <form action="">
+                            <div class="input">
+                                <h2>Inscriptions</h2>
+                            </div>
+                            <div class="input">
+                                <label>Nom d'utilisateur :</label><br>
+                                <input name="user" id="utilisateur" type="password" />
+                                <p id="userConstraint"></p>
+                                <p id="userConstraint2"></p>
+                            </div>
+                            <div class="input">
+                                <label>Mot de passe :</label><br>
+                                <input name="password" id="password" type="password" />
+                            </div>
+                            <div class="input">
+                                <label>Numéro :</label><br>
+                                <input name="number" id="number" type="password" />
+                            </div>
+                            <div class="input">
+                                <button type="button" onclick="ValidationMessage()">Valider</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
             </div>
             <div>
-                <!-- Formulaire -->
+                <!-- Avantages -->
             </div>
         </div>
-        <div>
-            <!-- Avantages -->
-        </div>
-    </div>
-    <div class="flex-container">
-        <div class="caracteristiques">
-            <img src="images/speed-icon.svg" class="icon">
-            <div class="infos">
-                <h2>Installation facile et rapide</h2>
-                <p>Notre mémoire vive s'installe facilement et rapidement sur votre ordinateur. Il vous suffit d'être
-                    connecté à la sphère de l'inter web.</p>
+        <div class="flex-container content-container avantages">
+            <h1 style="color: black;"> Caractéristiques</h1>
+            <div class="caracteristiques">
+                <img src="images/speed-icon.svg" class="icon">
+                <div class="infos">
+                    <h2>Installation facile et rapide</h2>
+                    <p>Notre mémoire vive s'installe facilement et rapidement sur votre ordinateur. Il vous suffit d'être
+                        connecté à la sphère de l'inter web.</p>
+                </div>
+    
             </div>
-
-        </div>
-        <div class="caracteristiques">
-            <img src="images/support-icon.svg" class="icon">
-            <div class="infos">
-                <h2>Support dédié</h2>
-                <p>Pour tout problèmes techniques, nous sommes présent pour vous aider. Vous n'avez qu'à communiquer
-                    avec Bruno Santerre. Notre roi de l'ordinateur.</p>
+            <div class="caracteristiques">
+                <img src="images/support-icon.svg" class="icon">
+                <div class="infos">
+                    <h2>Support dédié</h2>
+                    <p>Pour tout problèmes techniques, nous sommes présent pour vous aider. Vous n'avez qu'à communiquer
+                        avec Bruno Santerre. Notre roi de l'ordinateur.</p>
+                </div>
             </div>
-        </div>
-        <div class="caracteristiques">
-            <img src="images/money-icon.svg" class="icon">
-            <div class="infos">
-                <h2>100% Gratuit</h2>
-                <p>Ne vous ruinez pas en achetant de la ram sur des site web spécialisé, nous sommes la SEULE solution
-                    100% gratuite.</p>
+            <div class="caracteristiques">
+                <img src="images/money-icon.svg" class="icon">
+                <div class="infos">
+                    <h2>100% Gratuit</h2>
+                    <p>Ne vous ruinez pas en achetant de la ram sur des site web spécialisé, nous sommes la SEULE solution
+                        100% gratuite.</p>
+                </div>
             </div>
         </div>
     </div>
+    <footer>
+        <h3>
+            AUGMENTER LA ENCORE PLUS MEMOIRE VIVE DE VOTRE ORDINATEUR FACILEMENT
+        </h3>
+    </footer>
 </body>
 
 </html>
