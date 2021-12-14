@@ -98,25 +98,40 @@ function ValiderMotDePasse() {
           .css("color", "green");
           passwordError = false;
       }
-
 }
 
-  function ValidationMessage() {
 
-    if(userError || passwordError || numberError) {
-        if(userError) {
-            alert("Erreur de validation dans l'utilisateur");
-        }
-        if (passwordError) {
-            alert("Erreur de validation dans le mot de passe");
-        } 
-        if (numberError) {
-          alert("Erreur de validation dans le numéro");
+function ValidationMessage() {
+
+  if(userError || passwordError || numberError) {
+      if(userError) {
+          alert("Erreur de validation dans l'utilisateur");
       }
-    } else {
-        alert("Aucune erreur de validation. Nous allons installer votre RAM");
+      if (passwordError) {
+          alert("Erreur de validation dans le mot de passe");
+      } 
+      if (numberError) {
+        alert("Erreur de validation dans le numéro");
     }
-      
+  } else {
+      alert("Aucune erreur de validation. Nous allons installer votre RAM");
+  } 
+    
+}
+
+  function UpdateTable() {
+
+    var passwordValue = document.getElementById("password").value;
+    var userValue = document.getElementById("utilisateur").value;
+    var numberValue = document.getElementById("number").value;
+
+    $("#userTable") 
+      .html(userValue);
+
+    $("#passwordTable") 
+    .html(passwordValue);
+    $("#numeroTable") 
+    .html(numberValue);
       
   }
   
