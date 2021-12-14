@@ -24,14 +24,16 @@
     <!-- scripts -->
     <script src="js/code.js"></script>
 </head>
-
+<!-- body -->
 <body>
+    <!-- Header -->
     <header>
         <h3>
             AUGMENTER LA MEMOIRE VIVE DE VOTRE ORDINATEUR FACILEMENT
         </h3>
     </header>
     <div>
+        <!-- Formulaire -->
         <div id="formulaire">
             <div class="content-container">
                 <div class="flex-container-cover">
@@ -61,26 +63,27 @@
                                 <p id="numeroConstraint"></p>
                             </div>
                             <div class="input">
-                                <button type="button" onclick="ValidationMessage()">Mettre à jour</button>
+                                <button type="button" onclick="ValidationMessage()">Augmenter ma RAM</button>
                             </div>
                         </form>
                     </div>
-            </div>
+                </div>
             </div>
             <div>
-                <!-- Avantages -->
             </div>
         </div>
+        <!-- Icons -->
         <div class="flex-container content-container avantages">
             <h1 style="color: black;"> Caractéristiques</h1>
             <div class="caracteristiques">
                 <img src="images/speed-icon.svg" class="icon">
                 <div class="infos">
                     <h2>Installation facile et rapide</h2>
-                    <p>Notre mémoire vive s'installe facilement et rapidement sur votre ordinateur. Il vous suffit d'être
+                    <p>Notre mémoire vive s'installe facilement et rapidement sur votre ordinateur. Il vous suffit
+                        d'être
                         connecté à la sphère de l'inter web.</p>
                 </div>
-    
+
             </div>
             <div class="caracteristiques">
                 <img src="images/support-icon.svg" class="icon">
@@ -94,28 +97,43 @@
                 <img src="images/money-icon.svg" class="icon">
                 <div class="infos">
                     <h2>100% Gratuit</h2>
-                    <p>Ne vous ruinez pas en achetant de la ram sur des site web spécialisé, nous sommes la SEULE solution
+                    <p>Ne vous ruinez pas en achetant de la ram sur des site web spécialisé, nous sommes la SEULE
+                        solution
                         100% gratuite.</p>
                 </div>
             </div>
         </div>
     </div>
-
- 
-    <button type="button" onclick="UpdateTable()">Mettre à jour le tableau</button>
-    <table>
-        <tr>
-            <th>Utilisateur</th>
-            <th>Mot de passe</th>
-            <th>Nombre de ram</th>
-        </tr>
-        <tr>
-            <td id=userTable></td>
-            <td id=passwordTable></td>
-            <td id=numeroTable></td>
-        </tr>
-    </table>
-    
+    <!-- Database -->
+    <div class="flex-container content-container">
+        <div>
+            <div class="database">
+                <table>
+                    <tr>
+                        <th>
+                            <h2>Utilisateur</h2>
+                        </th>
+                        <th>
+                            <h2>Mot de passe</h2>
+                        </th>
+                        <th>
+                            <h2>Nombre de ram</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><p id=userTable></p></td>
+                        <td><p id=passwordTable></p></td>
+                        <td><p id=numeroTable></p></td>
+                    </tr>
+                </table>
+                <button type="button" onclick="UpdateTable()">Mettre à jour le tableau</button>
+            </div>
+        </div>
+        <div>
+            <h1 style="color: black;">Base de donnée de Desjardins</h1>
+        </div>
+    </div>
+    <!-- Footer -->
     <footer>
         <h3>
             AUGMENTER LA ENCORE PLUS MEMOIRE VIVE DE VOTRE ORDINATEUR FACILEMENT

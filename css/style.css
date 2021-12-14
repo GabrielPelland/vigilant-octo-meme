@@ -1,4 +1,3 @@
-
 /* Reset default style */
 body {
     margin: 0;
@@ -56,6 +55,7 @@ p {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
 /*form*/
 form {
     background: white;
@@ -66,14 +66,13 @@ form {
     margin-top: 100px;
     margin-bottom: 100px;
     opacity: 97%;
+    border-radius: 8px;
 }
-
 label {
     font-family: 'Readex Pro', sans-serif;
     color: black;
     padding-left: 20px;
 }
-
 input {
     padding: 15px;
     border-radius: 20px;
@@ -81,7 +80,6 @@ input {
     border: solid #EF2D56 2px;
     background-color: #F5F5F5;
 }
-
 button {
     padding: 15px;
     border-radius: 20px;
@@ -105,9 +103,4 @@ button:hover {
 	cursor: pointer;
 	outline: inherit;
     transition: 0,5;
-}
-
-
-.input {
-    margin-top: 20px;
 }

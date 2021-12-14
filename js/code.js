@@ -7,6 +7,7 @@ var numberError;
 var lettreValidation = /^[a-zA-z]+$/;
 var lettreNombreValidation = /^[a-zA-z0-9]+$/;
 var numbers = /[0-9]/g;
+
 //Attend que tout mon site web soit chargé avant de démarré ma fonction
 $(document).ready(function () {
     

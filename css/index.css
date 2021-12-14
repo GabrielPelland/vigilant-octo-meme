@@ -1,7 +1,3 @@
-#formulaire {
-    background-image: url(../images/techno-background.jpg)
-}
-
 /* Carateristiques */
 .icon {
     background-color:  #EF2D56;
@@ -30,8 +26,23 @@
     height: fit-content;
     width: fit-content;
 }
-
+#formulaire {
+    background-image: url(../images/techno-background.jpg)
+}
 .avantages {
     margin-top: 200px;
     margin-bottom: 200px;
+}
+
+/* Database */
+.database {
+    background-color: #F5F5F5;
+    box-shadow: 0px 16px 43px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 75px;
+    margin-bottom: 100px;
+}
+th {
+    padding-right
+    : 20px;
 }
